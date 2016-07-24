@@ -1,0 +1,123 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1100px) {
+	.idea h2{
+	margin-top: 0px;}
+}
+
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	h1 {
+		text-align: center;
+		font-size: 30px !important;
+	}
+	
+	}
+
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 380px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 380px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+	.col-md-3 img{
+		text-align: center;  }
+
+
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
+
+@media only screen and (max-width: 700px) and (min-width: 400px) {
+
+	.frame-wrapper img {
+		text-align: center;
+		height: 300px;
+		width: auto;
+		margin-top: 50px;
+		padding-top: 30px;
+		margin-left: 25px;
+	}
+}
+
+	@media only screen and (max-width: 401px){
+		.frame-wrapper img {
+			height: 210px;
+		    width: auto;
+			margin-top:80px;
+			padding-top: 20px;
+
+	}}
+
+@media only screen and (max-width: 977px) and (min-width: 677px) {
+
+	.frame-wrapper img {
+		text-align: center;
+		height: 350px;
+		width: auto;
+		margin-top: 10px;
+		padding-top: 0px;
+		margin-left: 25px;
+	}
+
+	h1 {
+		text-align: center;
+		font-size: 24px !important;
+		letter-spacing: 0px;
+	}
+
+	.text_input {
+		border-bottom: 2px solid rgba(26, 51, 77, 0.35);
+
+	}
+}
+
+
+@media only screen and (max-width: 1240px) and (min-width: 1219px) {
+
+	.frame-wrapper img {
+		text-align: center;
+		height: 350px;
+		width: auto;
+		margin-top: 10px;
+		padding-top: 0px;
+		margin-left: 25px;
+	}
+}
+

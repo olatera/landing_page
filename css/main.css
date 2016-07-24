@@ -1,0 +1,446 @@
+body {
+  font-family: Helvetica ,"Helvetica Neue", sans-serif;
+  background-color: #e5e9ed !important;
+  font-weight: normal;
+  font-size: 16px;
+  min-width: 320px;
+  position: relative;
+  line-height: 1.6;
+  overflow-x: hidden;
+    color: #1a334d !important;
+}
+
+header {
+  height: 550px;
+  background-image: url(../img/top_bg.jpg);
+  background-position: top center;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+}
+
+header:before {
+    content:'';
+    width:100%;
+    height: 100%;
+    display: block;
+    position: absolute;
+    background: rgba(6, 60, 106, 0.26);
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 35px !important;
+    line-height: 50px;
+    font-weight: bold;
+    font-family:  Helvetica,"Helvetica Neue", sans-serif;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+h2{
+    font-size: 30px;
+    color: #fff;
+    font-family: Helvetica,"Helvetica Neue", sans-serif;
+    margin-bottom: 0;
+    margin-top: 0;
+    border-top-width: 25px;
+    font-weight: normal;
+}
+
+h3 {
+    font-size: 20px;
+    color: #fff;
+    font-weight: normal;
+    margin-top: 2px;
+    text-align: center;
+}
+
+p{
+    font-size: 20px;
+    margin-bottom: 10px;
+    font-family:Helvetica,"Helvetica Neue", sans-serif;
+    margin-top: 10px;
+    margin-left: 20px;
+    font-weight: normal;
+
+}
+
+.frame-wrapper {
+    margin-top: 15px;
+}
+
+.center-align {
+    text-align:center;
+}
+
+.logo img{
+    height: 43px;
+    width: 200px;
+  color: white;
+  margin-top: 85px;
+  position: relative;
+}
+
+.frame-wrapper img {
+    text-align: center;
+    width: 100%;
+    margin-left: -10px;
+    margin-top: 35px;
+}
+
+.idea {
+    text-align: center;
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+.idea h2 {
+    color: #1a334d!important;
+    margin-top: 50px;
+}
+
+.forest {
+  min-height: 370px;
+  background-image: url(../img/forest.jpg);
+  background-position: top center;
+  background-size: cover;
+  color: #fff;
+  position: relative;
+  margin-top: 150px;
+}
+
+
+.forest strong {
+    display: block;
+    font-family: "RobotoBold", sans-serif;
+    font-weight: normal;
+    font-size: 60px;
+    padding-top:80px ;
+    margin-top: 50px;
+    text-align: center;
+}
+
+.hidden-hover {
+    background: rgba(27, 107, 162, 0.61);
+    width:100%;
+    height: 160px;
+    padding:30px;
+    color:#f4f4f4;
+    text-align: center;
+    font-weight:100;
+    opacity:0;
+    margin-top: 10px;
+
+}
+
+div.rotate1 {
+    background-image: url(../img/proj1.jpg);
+    background-size:cover;
+    width: 98%;
+    padding:0 !important;
+
+}
+
+div.rotate1:hover .hidden-hover {
+    opacity:1;
+    transition:all 0.2s ease-in-out;
+}
+
+div.rotate2 {
+    background-image: url(../img/proj2.jpg);
+    background-size:cover;
+    width: 98%;
+    padding:0 !important;
+}
+
+div.rotate2:hover .hidden-hover {
+    opacity:1;
+    transition:all 0.2s ease-in-out;
+}
+
+div.rotate3 {
+    background-image: url(../img/proj3.jpg);
+    background-size:cover;
+    width: 98%;
+    padding:0 !important;
+}
+
+div.rotate3:hover .hidden-hover {
+    opacity:1;
+    transition:all 0.2s ease-in-out;
+}
+div.rotate4 {
+    background-image: url(../img/proj4.jpg);
+    background-size:cover;
+    width: 98%;
+    padding:0 !important;
+}
+
+div.rotate4:hover .hidden-hover {
+    opacity:1;
+    transition:all 0.2s ease-in-out;
+}
+div.rotate5 {
+    background-image: url(../img/proj5.jpg);
+    background-size:cover;
+    width: 98%;
+    padding:0 !important;
+}
+
+div.rotate5:hover .hidden-hover {
+    opacity:1;
+    transition:all 0.2s ease-in-out;
+}
+div.rotate6 {
+    background-image: url(../img/proj6.jpg);
+    background-size:cover;
+    width: 98%;
+    padding:0 !important;
+}
+
+div.rotate6:hover .hidden-hover {
+    opacity:1;
+    transition:all 0.2s ease-in-out;
+}
+
+
+.hidden-hover h3 {
+    margin:0 !important;
+    padding:0 !important;
+    color:#f4f4f4;
+}
+
+.change h2{
+    font-size: 28px;
+    color: #1a334d;
+    font-family: Helvetica,"Helvetica Neue", sans-serif;
+    margin-bottom: 40px;
+    margin-top: 50px;
+    font-weight: normal;
+}
+
+ul{
+    -webkit-padding-start: 0px !important;
+}
+
+.prise{
+    background: #ffffff;
+    padding: 5px 10px 20px 10px;
+    margin-bottom: 70px;
+    min-width: 100%;
+    position:relative;
+    color:#1a334d!important;
+    line-height: 25px;
+}
+
+.prise h2{
+    color: #6d7986;
+}
+
+li {
+    list-style-type: none; /* Убираем маркеры */
+    text-align: left ;
+    padding-left: 15px;
+}
+
+.fa-caret-right{
+    padding: 2px 10px;
+    color: #1a334d;
+}
+
+.fa-usd{
+    color:#b3b9c0;
+}
+
+.fa-sliders{
+    padding: 19px 23px  !important;
+}
+.fa-coffee{
+    margin-left: -5px !important;
+}
+
+.work i {
+    border: solid 2px;
+    border-radius: 55px;
+    padding: 20px;
+    margin: 20px 10px;
+}
+
+.work{
+    height:800px;
+    width:100% ;
+    background-image: url(../img/work.jpg);
+    background-position: top center;
+    background-size: cover;
+    position: relative;
+}
+
+.work h2{
+    color: #ffffff;
+    margin-bottom: 40px;
+    margin-top: 100px;
+    border-bottom-width: 30px;
+    padding-bottom: 30px;
+}
+
+.communication{
+    height: 600px;
+    width: 100%;
+    background-image: url(../img/form.jpg);
+    background-position: top center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+
+form {
+    background-color: #e5e9ed;
+    margin: 100px auto;
+    width: 400px;
+    height: 400px;
+    padding: 1em;
+    font-family: Arial, Helvetica Neue, Helvetica, sans-serif;
+    box-shadow: 10px 10px 10px rgba(90, 88, 88, 0.19);
+    color: #abb2b9;
+
+}
+
+.text_input{
+  background-color: #e5e9ed;
+    font-size: 13px;
+    width: 90%;
+    border: white;
+    border-bottom: 2px solid rgba(26, 51, 77, 0.35);
+    margin-left: 15px;
+    outline:none;
+    padding-top: 20px;
+}
+
+.communication button{
+margin-top: 45px !important;    
+
+}
+
+.error {
+    background-color: #e5e9ed;
+    font-size: 13px;
+    width: 90%;
+    border: white;
+    border-bottom: 2px solid #F99;
+    margin-left: 15px;
+    outline:none;
+    padding-top: 20px;
+}
+
+.valid {
+background-color: #e5e9ed;
+    font-size: 13px;
+    width: 90%;
+    border: white;
+    border-bottom: 2px solid #2B8244;
+    margin-left: 15px;
+    outline:none;
+    padding-top: 20px;
+}
+
+
+.communication p{
+    font-size: 22px;
+    margin-top:20px ;
+    padding-top: 20px;
+    margin-bottom: 20px;
+}
+
+.error {
+    margin-left: 15px;
+    margin-top: 5px;
+}
+
+
+button {
+    font-size: 30px;
+    width: 145px;
+    height: 35px;
+    background-color:#99a4af;
+    border :none;
+    color: white !important;
+    line-height: 70px;
+    box-shadow: none !important;
+    display: inline-block;
+    margin-top: 10px !important;
+    margin-left: 10px;
+    opacity: 1;
+    margin-bottom: 20px!important;
+}
+.contacts .col-md-12{
+    height: 350px;
+}
+
+button:hover {
+    opacity: 0.7;
+}
+
+.trust{
+    height: 650px;
+    width: 100%;
+    background-image: url(../img/trust1.jpg);
+    background-position: top center;
+    background-size: cover;
+    color: #fff !important;
+    position: relative;
+}
+
+
+.beer img{
+    height: 400px;
+    width: 400px;
+    color: white;
+    margin-top: 50px;
+    position: relative;
+}
+.trust p{
+    margin-top: 70px;
+    margin-bottom: 20px;
+}
+.contact-top {
+    background-color: rgba(41, 58, 79, 0.72);
+    padding: 15px 18px;
+    cursor: pointer;
+    float: left;
+    color: #fff;
+    position: relative;
+    top: -300px;
+    /*left: 880px;*/
+    width: 385px;
+    height: 230px;
+}
+
+.contact-top p{
+  font-size: 20px;
+}
+
+.contact-top h3{
+    font-size: 25px;
+    text-align: left;
+    margin-left: 17px;
+}
+
+footer {
+    min-height: 105px;
+    background-image: url(../img/footer1.jpg);
+    background-position: top center;
+    background-size: cover;
+    color: #fff;
+    position: relative;
+}
+
+footer img{
+    height: auto;
+    width: 170px;
+    color: white;
+    margin-top: 40px;
+    position: relative;
+}
