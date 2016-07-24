@@ -76,11 +76,8 @@ p{
     text-align:center;
 }
 
-.logo img{
-    height: 43px;
-    width: 200px;
-  color: white;
-  margin-top: 85px;
+.logo{
+  margin-top: 150px;
   position: relative;
 }
 
